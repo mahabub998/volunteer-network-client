@@ -41,7 +41,7 @@ const AddEvents = () => {
     return (
         <div>
         <form onSubmit={handleSubmit(onSubmit)}>
-        <input defaultValue="name"{...register("example")} />
+        <input name="name" defaultValue="New exciting Event"{...register("example")} />
         <input type="file"  onChange={handleImgUpload}/>
         <input type="submit" />
       </form>   
